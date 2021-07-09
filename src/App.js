@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Alfano Kurniawan W</h1>
       </header>
     </div>
   );
