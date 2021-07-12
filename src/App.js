@@ -1,27 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
+
 function App() {
-  const giply_secret_key = process.env.REACT_APP_GIPHY_KEY
-  console.log(giply_secret_key);
+  // const giply_secret_key = process.env.REACT_APP_GIPHY_KEY
+  // console.log(giply_secret_key);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <h1>Alfano Kurniawan W</h1>
-      </header>
-    </div>
+    <form className="App">
+     <input type="search"/>
+     <button>search</button>
+     <img src="https://media.giphy.com/media/Vh8pbGX3SGRwFDh3V0/source.gif" alt="gif"/>
+    </form>
   );
 }
 
